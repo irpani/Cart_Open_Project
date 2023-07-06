@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 56.433 s <<< FAILURE! - in TestSuite
+loginPageUrlTest(com.qa.cartopen.tests.LoginPageTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.cartopen.tests.LoginPageTest.loginPageUrlTest(LoginPageTest.java:39)
+
+ForgotPwdLinkExist(com.qa.cartopen.tests.LoginPageTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.cartopen.tests.LoginPageTest.ForgotPwdLinkExist(LoginPageTest.java:45)
+
+RegLInkExist(com.qa.cartopen.tests.LoginPageTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.cartopen.tests.LoginPageTest.RegLInkExist(LoginPageTest.java:52)
+
+loginTest(com.qa.cartopen.tests.LoginPageTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.cartopen.tests.LoginPageTest.loginTest(LoginPageTest.java:59)
+
+getloginPageTitleTest(com.qa.cartopen.tests.LoginPageTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.cartopen.tests.LoginPageTest.getloginPageTitleTest(LoginPageTest.java:68)
+
